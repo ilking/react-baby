@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
-import SidePanel from 'components/SidePanel';
+import React from 'react';
+import SidePanel from './components/SidePanel';
 import './App.css';
 
-class App extends Component {
+class App extends React.Component {
   constructor(props) {
     super(props);
 
