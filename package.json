@@ -48,6 +48,7 @@
     "react-dev-utils": "^6.0.5",
     "react-dock": "^0.2.4",
     "react-dom": "^16.5.2",
+    "react-sidebar": "^3.0.2",
     "reactstrap": "^6.5.0",
     "resolve": "1.8.1",
     "sass-loader": "7.1.0",
