@@ -1,0 +1,26 @@
+@import '../mixins.less';
+
+.header-bar {
+  .gradient(linear; rgb(150, 240, 147), rgb(202, 233, 201) 70%; 90deg);
+  padding: 0.5vw;
+  border: 1px solid blue;
+  .rounded-corners(15px);
+
+  .title-col {
+    display: flex;
+    align-items: center;
+
+    .title {
+      margin-left: 5vw;
+    }
+  }
+
+  .button-col {
+    display: flex;
+    justify-content: flex-end;
+
+    .btn-outline-primary {
+      .rounded-corners(15px);
+    }
+  }
+}
