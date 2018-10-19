@@ -2,6 +2,7 @@ import React from "react";
 import Sidebar from "react-sidebar";
 import MainContent from './components/MainContent';
 import SidebarContent from './components/SidebarContent';
+import 'bootstrap/dist/css/bootstrap.css';
 import './App.less';
 
 class App extends React.Component {
